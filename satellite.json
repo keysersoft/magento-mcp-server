@@ -1,0 +1,24 @@
+{
+  "$comment": "Read by scripts/install.sh, scripts/smoke.mjs and the sync workflow. Generated; edit satellites.config.json in HelpCode-ai/anythingmcp instead.",
+  "repo": "magento-mcp-server",
+  "owner": "keysersoft",
+  "mainRepo": "HelpCode-ai/anythingmcp",
+  "adapters": [
+    {
+      "slug": "magento",
+      "region": "intl",
+      "requiredEnvVars": [
+        "MAGENTO_BASE_URL",
+        "MAGENTO_ACCESS_TOKEN"
+      ]
+    }
+  ],
+  "setup": {
+    "type": "adapter"
+  },
+  "smokeCall": {
+    "tool": "magento_search_products",
+    "args": {},
+    "mayFailWithoutCredentials": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "magento-mcp-server",
+  "private": true,
+  "type": "module",
+  "description": "Magento MCP server: Claude & ChatGPT manage products, stock, orders and customers in Magento 2 / Adobe Commerce.",
+  "scripts": {
+    "smoke": "node scripts/smoke.mjs",
+    "render-tools": "node scripts/render-tools.mjs",
+    "sync": "node scripts/sync-adapter.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
