@@ -150,6 +150,8 @@ Yes. The same MCP server works in ChatGPT (with a public HTTPS URL such as Anyth
 ## Related
 
 - [ecommerce-mcp-server](https://github.com/HelpCode-ai/ecommerce-mcp-server): E-commerce MCP server: connect Amazon, eBay, WooCommerce, Shopware, Kaufland, OTTO and 7 more to Claude & ChatGPT.
+- [woocommerce-mcp-server](https://github.com/keysersoft/woocommerce-mcp-server): WooCommerce MCP server: 49 tools for Claude & ChatGPT. Products, variations, inventory, orders, refunds, customers and reports.
+- [shopware-mcp-server](https://github.com/kochfreiburg/shopware-mcp-server): Shopware 6 MCP server: let Claude & ChatGPT search your Shopware catalog: products, categories and cross-sells (Store API).
 - [AnythingMCP](https://github.com/HelpCode-ai/anythingmcp): the open-source MCP server and gateway this repository is built on.
 
 ## License
